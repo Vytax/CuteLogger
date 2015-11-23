@@ -12,7 +12,8 @@ SOURCES += src/Logger.cpp \
            src/AbstractStringAppender.cpp \
            src/ConsoleAppender.cpp \
            src/FileAppender.cpp \
-           src/RollingFileAppender.cpp
+           src/RollingFileAppender.cpp \
+           src/SignalAppender.cpp
 
 HEADERS += include/Logger.h \
            include/CuteLogger_global.h \
@@ -20,7 +21,8 @@ HEADERS += include/Logger.h \
            include/AbstractStringAppender.h \
            include/ConsoleAppender.h \
            include/FileAppender.h \
-           include/RollingFileAppender.h
+           include/RollingFileAppender.h \
+           include/SignalAppender.h
 
 win32 {
     SOURCES += src/OutputDebugAppender.cpp
